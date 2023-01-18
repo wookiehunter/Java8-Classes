@@ -56,8 +56,5 @@ public class DateTime {
         DateTimeFormatter pattern = DateTimeFormatter.ofPattern("EEEE, LLLL dd, yyyy 'at' hh:mm");
         String stuff = LDT1.format(pattern);
         System.out.println(stuff);
-
-
-
     }
 }
